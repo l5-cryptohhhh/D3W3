@@ -88,9 +88,9 @@ li.completato span {
 
 .elimina {
     margin-left: auto;
-    background: #e74c3c;
-    color: white;
-    border: none;
+    background: white;
+    color: #e74c3c;
+    border: 1px solid #e74c3c ;
     padding: 4px 10px;
     cursor: pointer;
     border-radius: 4px;
@@ -98,4 +98,5 @@ li.completato span {
 
 .elimina:hover {
     background: #c0392b;
+    color: white;
 }
