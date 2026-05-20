@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    color: #1b2845;
+}
+
+h1 {
+    margin-bottom: 24px;
+}
+
+#form-task {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+#campo-task {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+.errore {
+    color: #c23b3b;
+    min-height: 20px;
+    margin-bottom: 12px;
+}
+
+.filtri {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    border-radius: 5%;
+}
+
+.filtri button.attivo {
+    background: #1b2845;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Aggiungi qui le tue regole CSS per:
+   - testo barrato sui task completati
+   - eventuali stati visivi
+*/
+
+li.completato span {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.errore {
+    color: red;
+    font-size: 0.9em;
+    min-height: 1em;
+}
+
+.elimina {
+    margin-left: auto;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.elimina:hover {
+    background: #c0392b;
+}
