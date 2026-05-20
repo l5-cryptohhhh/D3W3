@@ -51,7 +51,6 @@ form.addEventListener("submit", function (e) {
 
     tasks.push(nuovoTask);
     campo.value = "";
-    salvaLocale();
     rendiLista();
 });
 
